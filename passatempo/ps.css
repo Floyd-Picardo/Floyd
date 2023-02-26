@@ -1,0 +1,182 @@
+body{
+ background-color: rgb(173,173,173);
+  justify-content: center; 
+  align-items: center; 
+}
+
+h2{
+margin-left: 30%;
+
+}
+
+
+
+#img{
+    background-image: url(casa.png);
+    width: 3vh;
+    margin-top: 1px;
+    position: absolute;
+    top: 9.70%;
+    left: 46%;
+    cursor: pointer;
+}
+
+.btn{
+position: absolute;
+top: 10%;
+left: 43%;
+text-decoration: none;
+color: rgb(187, 67, 24);
+
+}
+
+
+ .btn:hover{
+    transition: 0.3s;
+    color: #f4f4ff;
+} 
+
+#saiba{
+    color: rgb(187, 67, 24);
+   position: absolute;
+   top:25%;
+   left: 30%; 
+   
+}
+
+#alterar{
+    /* margin-left: 38%;
+    margin-top: 4%; */
+    width: 50vh;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4ff;
+    border-radius: 1000px;
+    font-size: 15px;
+}
+
+
+#modal{
+    visibility: hidden;
+    display: none;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+ #modal:target{
+     visibility: visible;
+     display: flex;
+     position: absolute;
+ }
+ 
+ main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: -7vh;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(173,173,173) ;
+    position: absolute;
+    top: 58%;   
+    left: 46%;
+    text-decoration: underline;
+}
+
+@media (max-width:500px){
+    body{
+        background-color: rgb(173,173,173);
+         justify-content: center; 
+         align-items: center; 
+       }
+
+       
+       h2{
+        margin-left: 30%;
+        
+        }
+        
+        
+        
+        #img{
+            background-image: url(casa.png);
+            width: 3vh;
+            margin-top: 1px;
+            position: absolute;
+            top: 9.70%;
+            left: 46%;
+            cursor: pointer;
+        }
+        
+        .btn{
+        position: absolute;
+        top: 10%;
+        left: 43%;
+        text-decoration: none;
+        color: rgb(187, 67, 24);
+        
+        }
+        
+        
+         .btn:hover{
+            transition: 0.3s;
+            color: #f4f4ff;
+        } 
+        
+        #saiba{
+            color: rgb(187, 67, 24);
+           position: absolute;
+           top:25%;
+           left: 30%; 
+           
+        }
+        
+        #alterar{
+            /* margin-left: 38%;
+            margin-top: 4%; */
+            width: 30vh;
+            height: 30vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f4f4ff;
+            border-radius: 1000px;
+            font-size: 15px;
+        }
+        
+        
+        #modal{
+            visibility: hidden;
+            display: none;
+            align-self: flex-start;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+         }
+         
+         #modal:target{
+             visibility: visible;
+             display: flex;
+             position: absolute;
+         }
+        
+
+       
+
+
+
+}
+
